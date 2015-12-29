@@ -1,0 +1,7 @@
+chmod +x ~/WebProject/start.js
+git -C ~/WebProject pull origin master
+pkill nodejs
+pkill ruby
+nodejs ~/WebProject/start.js
+
+
