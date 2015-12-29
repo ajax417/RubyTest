@@ -1,7 +1,7 @@
-chmod +x /home/ajax/github_ruby_test/start.js
-git -C /home/ajax/github_ruby_test/ pull origin master
+chmod +x ~/RubyTest/start.js
+git -C ~/RubyTest/ pull origin master
 pkill nodejs
 pkill ruby
-nodejs /home/ajax/github_ruby_test/start.js
+nodejs ~/RubyTest/start.js
 
 
