@@ -23,7 +23,7 @@ default: &default
 
 development:
   <<: *default
-  database: ruby-getting-started_development
+  database: ruby_getting_started_development
   username: postgres
   password: postgres
 
@@ -59,7 +59,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: ruby-getting-started_test
+  database: ruby_getting_started_test
   username: postgres
   password: postgres
 
@@ -84,6 +84,6 @@ test:
 #
 production:
   <<: *default
-  database: ruby-getting-started_production
+  database: ruby_getting_started_production
   username: postgres
   password: postgres
