@@ -1,4 +1,5 @@
 var sys = require('sys');
+var fs = require('fs');
 var spawn = require('child_process').spawn;
 var exec = require('child_process').exec;
 startRails(3000);
